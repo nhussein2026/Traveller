@@ -1,17 +1,19 @@
 body {
-  background-image: url('../src/assets/images/background.png');
+  background-image: url(../src/assets/images/background.png);
   background-size: 40%;
   background-repeat: no-repeat;
   background-position: 100% 0;
 }
-.img {
+
+img {
   max-width: 100%;
 }
+
 .volkhov {
-  font-family: 'volkhov', serif;
+  font-family: 'Volkhov', serif;
 }
-.btn-yellow {
-  background-color: #F1A501;
+.font-light {
+  font-weight: 100;
 }
 .color-orange {
   color: #DF6951;
@@ -19,13 +21,10 @@ body {
 .color-blue {
   color: #5E6282;
 }
-.tagline {
-  font-size: 1.2rem;
+.uppercase {
   text-transform: uppercase;
 }
-.font-light {
-  font-weight: 100;
-}
-.uppercase {
+.tagline {
+  font-size: 1.2rem;
   text-transform: uppercase;
 }
