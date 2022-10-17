@@ -25,3 +25,4 @@ const Flight = () => {
                     </svg>
     )
 }
+export default Flight

@@ -15,6 +15,21 @@ img {
 .font-light {
   font-weight: 100;
 }
+.font-bold {
+  font-weight: 600;
+}
+.bg-yellow {
+  background-color: #F0BB1F;
+}
+.bg-orange {
+  background-color: #DF6951;
+}
+.bg-blue {
+  background-color: #5E6282;
+}
+.bg-green {
+  background-color: #006380;
+}
 .color-orange {
   color: #DF6951;
 }
@@ -27,4 +42,7 @@ img {
 .tagline {
   font-size: 1.2rem;
   text-transform: uppercase;
+}
+.big-margin {
+  margin-top: 100px;
 }

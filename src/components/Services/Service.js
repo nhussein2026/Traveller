@@ -1,11 +1,12 @@
 import './Service.css'
 import Satellite from '../UI/Icons/Satellite'
 import Customization from '../UI/Icons/Customization'
-
+import Flight from '../UI/Icons/Flight'
 const Service = ({ icon, title, content, active = false }) => {
     const icons = {
         satellite: <Satellite />,
-        customization: <Customization />
+        customization: <Customization />,
+        flight: <Flight />,
     }
     return (
         <div className={`service text-center d-flex flex-column align-items-center ${active ? 'active' : ''}`}>

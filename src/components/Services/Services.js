@@ -10,7 +10,7 @@ const Services = () => {
             active: false
         },
         {
-            icon: 'satellite',
+            icon: 'flight',
             title: 'Best Flights',
             content: 'Built Wicket longer admire do barton vanity itself do in it.',
             active: true
